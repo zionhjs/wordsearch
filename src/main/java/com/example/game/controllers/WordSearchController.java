@@ -25,6 +25,7 @@ public class WordSearchController {
             }
             gridToString += "\r\n";
         }
+        System.out.println(gridToString);
         return gridToString;
     }
 }
